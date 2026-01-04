@@ -73,7 +73,7 @@ export const ROCKET_CONFIG = {
 // ============================================================================
 export const GUIDANCE_CONFIG = {
     // Target orbit
-    targetAltitude: 400000,          // meters — target circular orbit
+    targetAltitude: 700000,          // meters — target circular orbit
     
     // Atmosphere threshold
     atmosphereLimit: 70000,          // meters — above this, we're in "vacuum"

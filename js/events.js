@@ -32,7 +32,7 @@ export function formatTMinus(seconds) {
  * @param {number} mu - Standard gravitational parameter (m³/s²)
  * @returns {number} Time to apoapsis (s), or Infinity if unreachable
  */
-function calculateTimeToApoapsis(orbit, state, mu) {
+export function calculateTimeToApoapsis(orbit, state, mu) {
     if (orbit.isEscape || orbit.eccentricity >= 1 || orbit.semiMajorAxis <= 0) {
         return Infinity;
     }
